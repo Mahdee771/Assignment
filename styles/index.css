@@ -6,6 +6,7 @@
     font-optical-sizing: auto;
 }
 
+/* Nav CSS */
 .navi{
     display: flex;
     justify-content: space-between;
@@ -41,4 +42,111 @@
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
+}
+
+/* Hero CSS */
+.Hero{
+    background-image: url(../assets/hero-bg.png);
+    max-width: 1600px;
+    height: 674px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 115.5px 120px 179.5px 120px;
+    text-align: center;
+}
+/* .heroContent p{
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    padding: 8px 34px 8px 34px;
+    border-radius: 1000px;
+} */
+ .heroContent{
+    
+ }
+ #early{
+    padding: 8px 12px 8px 34px;
+    display: inline-block;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    border-radius: 1000px;
+    margin-bottom: 16px;
+   
+ }
+ #early::before{
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #30B868;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(48,184,104, 0.2);
+    margin-right:4px;
+ }
+ 
+ .herotitle{
+
+    /* width: 770px;
+    height: 168px; */
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    
+ }
+  #title2{
+    margin-bottom: 16px;
+    color: #21693f;
+ }
+ .herotitle h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+ }
+ .herotext{
+    /* width: 770px; */
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+ }
+ .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+ }
+ .btn a{
+    text-decoration: none;
+ }
+.button1{
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    padding-right: 46px;
+    padding-left: 16px;
+    background-color: #30B868;
+    border: none;
+    display: flex;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+.button2{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 15.5px;
+    padding-left: 45.5px;
+    background-color: #21693f00 ;
+    border: 1px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
 }
