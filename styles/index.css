@@ -52,7 +52,7 @@
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    padding: 115.5px 120px 179.5px 120px;
+    padding: 115.5px 120px 0px 120px;
     text-align: center;
 }
  #early{
@@ -144,12 +144,12 @@
 .second{
     max-width: 1600px;
     height: 448px;
-    /* display: flex; */
     justify-content: center;
     align-items: center;
     padding: 50px 120px 179.5px 120px;
     text-align: center;
     background-color: #fbfbfb;
+    overflow: hidden;  
 }
 .secondtitle h1{ 
     font-size: 48px;
@@ -243,4 +243,15 @@
     border-radius: 50%;
     margin-bottom: 16px;
     margin-top: 42.5px;
+}
+
+.third{
+    max-width: 1600px;
+    height: 448px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 120px 179.5px 120px;
+    text-align: center;
+    background-color: #ff0000;
+    
 }
