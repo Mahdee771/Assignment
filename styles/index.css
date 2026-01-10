@@ -56,8 +56,10 @@
     text-align: center;
 }
  #early{
-    padding: 8px 12px 8px 34px;
-    display: inline-block;
+    padding: 8px 12px 8px 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     background-color: white;
     font-size: 16px;
     font-weight: 500;
@@ -68,11 +70,12 @@
  }
  #early::before{
     content: "";
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
     background-color: #30B868;
     border-radius: 50%;
-    box-shadow: 0 0 0 4px rgba(48,184,104, 0.2);
+    display: inline-block;
+    box-shadow: 0 0 0 4px rgba(48, 184, 104, 0.25), 0 0 0 8px rgba(48, 184, 104, 0.12);
     margin-right:4px;
  }
  
@@ -105,6 +108,7 @@
     align-items: center;
     gap: 16px;
     
+    
  }
  .btn a{
     text-decoration: none;
@@ -118,6 +122,7 @@
     font-size: 16px;
     font-weight: 600;
     color: white;
+    cursor: pointer;
 }
 .button1 p{
     margin: 0px;
@@ -135,6 +140,7 @@
     font-weight: 600;
     color: white;
     display: flex;
+    cursor: pointer;
 }
 .button2 p{
     margin: 0px;
@@ -300,6 +306,7 @@
     color: #ffffff;
     border: none;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 .lastbtn{
     display: flex;
@@ -316,3 +323,43 @@
     display: block;
     margin-left: 10px;
 }
+
+/* Footer Section CSS */
+.foot{
+    max-width: 1600px;
+    height: 348px;
+    background-color: #001931;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 120px 30px 120px;
+}
+.fmenu{
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    gap: 16px;
+}
+.ftr-line{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.foot p{
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #fafafa;
+}
+
