@@ -245,13 +245,41 @@
     margin-top: 42.5px;
 }
 
+/* Third CSS */
 .third{
     max-width: 1600px;
-    height: 448px;
+    height: 840px;
     justify-content: center;
     align-items: center;
-    padding: 50px 120px 179.5px 120px;
-    text-align: center;
-    background-color: #ff0000;
-    
+    padding: 120px;
+    background-color: #ffffff;
+    display: flex;
+    gap: 60px;
 }
+.thirdInfo{
+    width: 700px;
+    height: 396;
+    border-top: 102;
+    border-bottom: 102;
+    text-align: left;
+}
+#thirdHead{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.thirdInfo h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.thirdInfo p{
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 40px;
+}
+/* innerDiv er kaj kori nai, korte hobe */
