@@ -77,14 +77,9 @@
  }
  
  .herotitle{
-
-    /* width: 770px;
-    height: 168px; */
     justify-content: center;
     display: flex;
     flex-direction: column;
-    
-    
  }
   #title2{
     margin-bottom: 16px;
@@ -115,10 +110,7 @@
     text-decoration: none;
  }
 .button1{
-    padding-top: 16.5px;
-    padding-bottom: 16.5px;
-    padding-right: 46px;
-    padding-left: 16px;
+    padding: 16px;
     background-color: #30B868;
     border: none;
     display: flex;
@@ -127,17 +119,29 @@
     font-weight: 600;
     color: white;
 }
+.button1 p{
+    margin: 0px;
+}
+.button1 img{
+    display: block;
+    margin-left: 10px;
+}
 .button2{
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-right: 15.5px;
-    padding-left: 45.5px;
+    padding: 16px;
     background-color: #21693f00 ;
     border: 1px solid white;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
     color: white;
+    display: flex;
+}
+.button2 p{
+    margin: 0px;
+}
+.button2 img{
+    display: block;
+    margin-right: 10px;
 }
 
 /* sec2 css */
@@ -282,4 +286,15 @@
     color: #627382;
     margin-bottom: 40px;
 }
-/* innerDiv er kaj kori nai, korte hobe */
+.innerDiv{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+.innerDiv p{
+    margin: 0px;
+}
+.innerDiv img{
+    display: block;
+}
