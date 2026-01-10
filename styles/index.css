@@ -187,7 +187,7 @@
     font-weight: 400;
     letter-spacing: -.5px;
 }
-.c1{
+.cards{
     height: 300px;
     width: 322px;
     padding: 24px;
@@ -195,59 +195,13 @@
     border-radius: 8px;
     box-shadow: 0px 0px 30px  #cfcfcf46;
 }
-
-.c1 img{
+.cards img{
     background-color: #F95555;
     padding: 14px;
     border-radius: 50%;
     margin-bottom: 16px;
     margin-top: 42.5px;
 } 
-.c2{
-    height: 300px;
-    width: 322px;
-    padding: 24px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0px 0px 30px  #cfcfcf46;
-}
-.c2 img{
-    background-color: #F95555;
-    padding: 14px;
-    border-radius: 50%;
-    margin-bottom: 16px;
-    margin-top: 42.5px;
-}
-.c3{
-    height: 300px;
-    width: 322px;
-    padding: 24px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0px 0px 30px  #cfcfcf46;
-}
-.c3 img{
-    background-color: #F95555;
-    padding: 14px;
-    border-radius: 50%;
-    margin-bottom: 16px;
-    margin-top: 42.5px;
-}
-.c4{
-    height: 300px;
-    width: 322px;
-    padding: 24px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0px 0px 30px  #cfcfcf46;
-}
-.c4 img{
-    background-color: #F95555;
-    padding: 14px;
-    border-radius: 50%;
-    margin-bottom: 16px;
-    margin-top: 42.5px;
-}
 
 /* Third CSS */
 .third{
@@ -297,4 +251,68 @@
 }
 .innerDiv img{
     display: block;
+}
+
+/* Forth CSS */
+.forth{
+    max-width: 1600px;
+    height: 506px;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0px 120px 120px 120px; */
+    background-color: #ffffff;
+}
+.forthdiv{
+    max-width: 1360px;
+    height: 384px;
+    margin: 2px 120px 120px 120px;
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.forthdiv h2{
+    font-size: 40px;
+    font-weight: 700;
+    color:#001931;
+    margin-bottom: 16px;
+}
+.forthdiv p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 24px;
+    line-height: 24px;
+}
+.forthdiv a{
+    text-decoration: none;
+}
+ .forthdiv button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #30B868;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 16px;
+}
+.lastbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.lastbtn p{
+    margin: 0px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+}
+.lastbtn img{
+    display: block;
+    margin-left: 10px;
 }
